@@ -1,0 +1,4 @@
+Sitemap: https://lschumm.github.io/output/sitemapindex.xml
+
+User-Agent: *
+Host: lschumm.github.io
