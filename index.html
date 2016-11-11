@@ -29,20 +29,44 @@
 						</header>
 						<hr />
 						<h1>Hi. I'm Liam.</h1>
-						<p>I'm a 15-year old Chicago high school student at Walter Payton College Prep. I love coding and math, among other things. I'm on the math team and Sounds Of Sweetness (the <i>a capella</i> group).</p>
+						<p id="bio">I'm a 15-year old Chicago high school student at Walter Payton College Prep.
+						I love coding and math, among other things. I'm on the math team and Sounds Of Sweetness (the <i>a capella</i> group).</p>
 
-						<hr>
+						<script>
+						  function calcAge(dateString) {
+						      var birthday = +new Date(dateString);
+						      return~~ ((Date.now() - birthday) / (31557600000));
+						  }
+						  document.getElementById("bio").innerHTML = document.getElementById("bio").innerHTML.replace("15", calcAge("2001-04-25"));
+						</script>
 						
+						<hr>
+
+						<h1>What I Like Doing</h1>
+						I like coding a lot. I know Python fluently, along with some significant HTML/CSS/JS work, as well as knowledge of the Cordova framework.
+						I also have a basic knowledge of Java and Ruby. Right now, I'm tinkering with C and Lisp (specifically emacs lisp).
+						I've made predominantly terminal tools, but have also made the occasional website. I also enjoy math, and attend various events in Chicago relating to math. In addition, I have volunteered for the CR2 project (<a href="http://cr2chicago.weebly.com">http://cr2chicago.weebly.com</a>) in local and international efforts pertaining to wildlife conservation. I also sing, and play the <a href="https://en.wikipedia.org/wiki/Concertina">Irish Concertina</a>.
 						<h1>Things I've Worked On</h1>
 						<h2>Coding</h2>
-						<p><b>fTerm</b> <i>(2016-current)</i>: The Bourne-again shell for humans. <br> <a href="https://github.com/fterm/fterm">https://github.com/fterm/fterm</a></p>
-						<p><b>Limestone</b> <i>(CodeDay 2016, Spring)</i>: An online interface for neural networks. <br> <a href="https://limestone-app.github.io">https://limestone-app.github.io</a></p>
+
+						<p><b>fTerm</b> <i>(2016-current)</i>: The Bourne-again shell for humans.
+						<br> <a href="https://github.com/fterm/fterm">https://github.com/fterm/fterm</a></p>
+
+						<p><b>Limestone</b> <i>(CodeDay 2016, Spring)</i>: An online interface for neural networks.
+						<br> <a href="https://limestone-app.github.io">https://limestone-app.github.io</a></p>
+
 						<h2>Other</h2>
-						<p><b>TEDxYouth@HotMetalBridge</b> <i>(2014)</i>: I gave a talk at TEDxYouth@HotMetalBridge about coral reefs, and how the are integral to our lives. <br> <a href="http://www.tedxyouthhotmetalbridge.com">http://www.tedxyouthhotmetalbridge.com</a></p>
 
-						<p><b>TEDxYouth@HotMetalBridge</b> <i>(2014)</i>: I gave a talk at TEDxYouth@HotMetalBridge about coral reefs, and how the are integral to our lives. <br> <a href="http://www.tedxyouthhotmetalbridge.com">http://www.tedxyouthhotmetalbridge.com</a></p>
+						<p><b>NIMUN</b><i>(2013-2016)</i>:
+						I have attended for two years, and now volunteer for (as a vice-chair, first on the UNCSTD, then on the UNSC),
+						the Northern Illinois Model United Nations conference.
+						<br> <a href="http://nimunweb.com">http://nimunweb.com</a></p> 
 
-						<p><b>PADI certification</b>: I am a PADI-certified SCUBA diver.</p>
+						<p><b>TEDxYouth@HotMetalBridge</b> <i>(2014)</i>:
+						I gave a talk at TEDxYouth@HotMetalBridge about coral reefs, and how they are integral to our lives.
+						<br> <a href="http://www.tedxyouthhotmetalbridge.com">http://www.tedxyouthhotmetalbridge.com</a></p>
+
+						<p><b>PADI certification</b> <i>(2014)</i>: I am a PADI-certified SCUBA diver.</p>
 
 						<p><b>
 						<hr />
