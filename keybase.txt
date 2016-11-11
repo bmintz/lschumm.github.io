@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/lschumm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lschumm.github.io
+  * I am lschumm (https://keybase.io/lschumm) on keybase.
+  * I have a public key ASDhPAC4kYCzic5OdQXGF3tnxxzG7pHybFAgAVW3QKBmSQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e13c00b89180b389ce4e7505c6177b67c71cc6ee91f26c50200155b740a066490a",
+            "host": "keybase.io",
+            "kid": "0120e13c00b89180b389ce4e7505c6177b67c71cc6ee91f26c50200155b740a066490a",
+            "uid": "c6ccb814e4a829f91fa91a900acc3919",
+            "username": "lschumm"
+        },
+        "service": {
+            "hostname": "lschumm.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1471299439,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1471299436,
+        "hash": "a078a2d601277ef78a6655c6763bacb275fc7d34a7e119495567ebc8b2ae5267908c26ea8dd31e8ec33b0bc0be017e2c4ef85530170630415290f915b61e13c0",
+        "seqno": 579199
+    },
+    "prev": "25dcc9f2777b3ec7ddc82f9c6626e30c84c1645152fcd3a074de6651c8ca3df8",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4TwAuJGAs4nOTnUFxhd7Z8ccxu6R8mxQIAFVt0CgZkkKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTEzYzAwYjg5MTgwYjM4OWNlNGU3NTA1YzYxNzdiNjdjNzFjYzZlZTkxZjI2YzUwMjAwMTU1Yjc0MGEwNjY0OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTEzYzAwYjg5MTgwYjM4OWNlNGU3NTA1YzYxNzdiNjdjNzFjYzZlZTkxZjI2YzUwMjAwMTU1Yjc0MGEwNjY0OTBhIiwidWlkIjoiYzZjY2I4MTRlNGE4MjlmOTFmYTkxYTkwMGFjYzM5MTkiLCJ1c2VybmFtZSI6ImxzY2h1bW0ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImxzY2h1bW0uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzEyOTk0MzksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MTI5OTQzNiwiaGFzaCI6ImEwNzhhMmQ2MDEyNzdlZjc4YTY2NTVjNjc2M2JhY2IyNzVmYzdkMzRhN2UxMTk0OTU1NjdlYmM4YjJhZTUyNjc5MDhjMjZlYThkZDMxZThlYzMzYjBiYzBiZTAxN2UyYzRlZjg1NTMwMTcwNjMwNDE1MjkwZjkxNWI2MWUxM2MwIiwic2Vxbm8iOjU3OTE5OX0sInByZXYiOiIyNWRjYzlmMjc3N2IzZWM3ZGRjODJmOWM2NjI2ZTMwYzg0YzE2NDUxNTJmY2QzYTA3NGRlNjY1MWM4Y2EzZGY4Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAKPbBLsasGuTVUuABdzMcrEvDpVfd3f3kVsqp2zzc9iBhysI7Ps8XojWntvRxvS4GlRuV590H6VV4RkA19aMGBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPAJQuvV8U8tGiv07mkKqOLqPow1aquTcf5aDhk1E6SGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lschumm
+
+==================================================================
