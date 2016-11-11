@@ -4,9 +4,9 @@ https://keybase.io/lschumm
 
 I hereby claim:
 
-  * I am an admin of https://lschumm.github.io
+  * I am an admin of http://liamschumm.com
   * I am lschumm (https://keybase.io/lschumm) on keybase.
-  * I have a public key ASDhPAC4kYCzic5OdQXGF3tnxxzG7pHybFAgAVW3QKBmSQo
+  * I have a public key ASBLVeYQSn5xbdydenxcWkO8rLK1xi0dAS-NGdVfmxcTnAo
 
 To do so, I am signing this object:
 
@@ -15,36 +15,36 @@ To do so, I am signing this object:
         "key": {
             "eldest_kid": "0120e13c00b89180b389ce4e7505c6177b67c71cc6ee91f26c50200155b740a066490a",
             "host": "keybase.io",
-            "kid": "0120e13c00b89180b389ce4e7505c6177b67c71cc6ee91f26c50200155b740a066490a",
+            "kid": "01204b55e6104a7e716ddc9d7a7c5c5a43bcacb2b5c62d1d012f8d19d55f9b17139c0a",
             "uid": "c6ccb814e4a829f91fa91a900acc3919",
             "username": "lschumm"
         },
         "service": {
-            "hostname": "lschumm.github.io",
-            "protocol": "https:"
+            "hostname": "liamschumm.com",
+            "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
     "client": {
         "name": "keybase.io go client",
-        "version": "1.0.16"
+        "version": "1.0.17"
     },
-    "ctime": 1471299439,
+    "ctime": 1478883530,
     "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1471299436,
-        "hash": "a078a2d601277ef78a6655c6763bacb275fc7d34a7e119495567ebc8b2ae5267908c26ea8dd31e8ec33b0bc0be017e2c4ef85530170630415290f915b61e13c0",
-        "seqno": 579199
+        "ctime": 1478883498,
+        "hash": "dd0834b4a2df74aa0d8653f6517f56078b483dfcbe0e1b40aac6ddf7dec20ecac43f4b31eecb9ff6106c2526c0f755ed5fc6993f34a73cc838daee661af0fe19",
+        "seqno": 709256
     },
-    "prev": "25dcc9f2777b3ec7ddc82f9c6626e30c84c1645152fcd3a074de6651c8ca3df8",
-    "seqno": 7,
+    "prev": "d1195ccc2fc8dc0bec0e635703feecd3809c66418b92819a8037dd01a24c110e",
+    "seqno": 16,
     "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4TwAuJGAs4nOTnUFxhd7Z8ccxu6R8mxQIAFVt0CgZkkKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTEzYzAwYjg5MTgwYjM4OWNlNGU3NTA1YzYxNzdiNjdjNzFjYzZlZTkxZjI2YzUwMjAwMTU1Yjc0MGEwNjY0OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTEzYzAwYjg5MTgwYjM4OWNlNGU3NTA1YzYxNzdiNjdjNzFjYzZlZTkxZjI2YzUwMjAwMTU1Yjc0MGEwNjY0OTBhIiwidWlkIjoiYzZjY2I4MTRlNGE4MjlmOTFmYTkxYTkwMGFjYzM5MTkiLCJ1c2VybmFtZSI6ImxzY2h1bW0ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImxzY2h1bW0uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzEyOTk0MzksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MTI5OTQzNiwiaGFzaCI6ImEwNzhhMmQ2MDEyNzdlZjc4YTY2NTVjNjc2M2JhY2IyNzVmYzdkMzRhN2UxMTk0OTU1NjdlYmM4YjJhZTUyNjc5MDhjMjZlYThkZDMxZThlYzMzYjBiYzBiZTAxN2UyYzRlZjg1NTMwMTcwNjMwNDE1MjkwZjkxNWI2MWUxM2MwIiwic2Vxbm8iOjU3OTE5OX0sInByZXYiOiIyNWRjYzlmMjc3N2IzZWM3ZGRjODJmOWM2NjI2ZTMwYzg0YzE2NDUxNTJmY2QzYTA3NGRlNjY1MWM4Y2EzZGY4Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAKPbBLsasGuTVUuABdzMcrEvDpVfd3f3kVsqp2zzc9iBhysI7Ps8XojWntvRxvS4GlRuV590H6VV4RkA19aMGBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPAJQuvV8U8tGiv07mkKqOLqPow1aquTcf5aDhk1E6SGo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgS1XmEEp+cW3cnXp8XFpDvKyytcYtHQEvjRnVX5sXE5wKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTEzYzAwYjg5MTgwYjM4OWNlNGU3NTA1YzYxNzdiNjdjNzFjYzZlZTkxZjI2YzUwMjAwMTU1Yjc0MGEwNjY0OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGI1NWU2MTA0YTdlNzE2ZGRjOWQ3YTdjNWM1YTQzYmNhY2IyYjVjNjJkMWQwMTJmOGQxOWQ1NWY5YjE3MTM5YzBhIiwidWlkIjoiYzZjY2I4MTRlNGE4MjlmOTFmYTkxYTkwMGFjYzM5MTkiLCJ1c2VybmFtZSI6ImxzY2h1bW0ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImxpYW1zY2h1bW0uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3ODg4MzUzMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc4ODgzNDk4LCJoYXNoIjoiZGQwODM0YjRhMmRmNzRhYTBkODY1M2Y2NTE3ZjU2MDc4YjQ4M2RmY2JlMGUxYjQwYWFjNmRkZjdkZWMyMGVjYWM0M2Y0YjMxZWVjYjlmZjYxMDZjMjUyNmMwZjc1NWVkNWZjNjk5M2YzNGE3M2NjODM4ZGFlZTY2MWFmMGZlMTkiLCJzZXFubyI6NzA5MjU2fSwicHJldiI6ImQxMTk1Y2NjMmZjOGRjMGJlYzBlNjM1NzAzZmVlY2QzODA5YzY2NDE4YjkyODE5YTgwMzdkZDAxYTI0YzExMGUiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA/7ncgtr644pdxRUIeY7vZ3RZKiTf2WxoPOrL49Cr3fdvnegRf4DROCphKsBwpnA47fMB0eKrefHZij00FBMAAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJFw8fcLrLV/QNx34ldLNEnxtdE6+zUd9TLEtv7IYLwyo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
