@@ -29,7 +29,7 @@
 						</header>
 						<hr />
 						<h1>Hi. I'm Liam.</h1>
-						<p id="bio">I'm a %%AGE%%-year old Chicago high school student at Walter Payton College Prep.
+						<p id="bio">I'm a 15-year old Chicago high school student at Walter Payton College Prep.
 						I love coding and math, among other things. I'm on the math team and Sounds Of Sweetness (the <i>a capella</i> group).</p>
 
 						<script>
@@ -37,7 +37,7 @@
 						      var birthday = +new Date(dateString);
 						      return~~ ((Date.now() - birthday) / (31557600000));
 						  }
-						  document.getElementById("bio").innerHTML = document.getElementById("bio").innerHTML.replace("%%AGE%%", calcAge("2001-04-25"));
+						  document.getElementById("bio").innerHTML = document.getElementById("bio").innerHTML.replace("15", calcAge("2001-04-25"));
 						</script>
 						
 						<hr>
@@ -83,15 +83,8 @@
 						<ul class="copyright">
 							<li>&copy; Liam Schumm</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
-
 						<ul class="copyright">
 						<li>This website respects your privacy, and does not use tracking scripts.</li> <li>No non-free JavaScript is used.</li>
-						</ul>
-						
-						<ul class="copyright">
-						<li><a href="eo">Esperanto (eksperimenta)</a></li><li> <a href="es">Español (experimental)</a></li>
-						</ul>
-						
 						</ul>
 					</footer>
 
@@ -108,4 +101,4 @@
 
 	</body>
 </html>
-
+B
