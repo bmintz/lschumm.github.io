@@ -23,6 +23,8 @@
 	
 	.page-body .page-section {
 		padding-left: 6.0em;
+		overflow-x: wrap;
+		width: 100%;
 	}
 	
 	.page-body .page-subsection {
@@ -195,6 +197,9 @@
 	.crt {
 	  animation: textShadow 1.6s infinite;
 	}
+	#page-boot {
+		overflow-wrap: break-word;
+	}
 </style>
 
 <head>
@@ -203,7 +208,10 @@
 
 <body>
 	
-	<div class="page-body crt">
+	<div id="page-boot" class="page-body crt">
+	</div>
+	
+	<div id="page-body" class="page-body crt" style="display: none">
 	<div id="container" align="center">
 	   	<div style="display: inline-block; float:left">LIAM(1)</div>
 	   	<div style="display: inline-block; float:right">LIAM(1)</div>
@@ -287,4 +295,40 @@
 		<a class="link" href="https://twitter.com/liamschumm">TWITTER(6)</a>,
 		<a class="link" href="https://github.com/lschumm">GITHUB(8)</a>
 	</div>
+	
+	<script>
+		lines = ['MBR...PBS1...</br>',
+		'Plan 9 from Bell Labs</br>',
+		'probing sd...using sdC0!plan9!plan9.ini</br>',
+		'.</br>',
+		'cpu0: 2792MHz P6 loop 146384</br>',
+		'apm ax=f000 cx=f000 dx=f000 di=fff0 ebx=da40 esi=-f0010</br>',
+		'bios (usb) loading disabled</br>',
+		'bus dev type vid  did intl memory</br>',
+		'0   3/0 02 00 00 1022 2000  10',
+		'0:0000d021 32 1:f0000000 4096</br>',
+		'found 9pcf</br>',
+		'.1094337.....................',
+		'................................................',
+		'..................................................',
+		'.................................................',
+		'...........+1823792......................................',
+		'...........................................................................',
+		'...',
+		'...........................',
+		'.................+595688=3513817</br>',
+		'entry: 0xf0100020</br>',
+		'</br></br>',
+		'Plan 9</br>']
+		
+		t = 0
+		
+		while (lines.length != 0) {
+			t += Math.random() * 500
+			window.setTimeout((function(line){return function(){document.getElementById('page-boot').innerHTML += line}})(lines.shift()), t)
+		}
+		
+		window.setTimeout(function(){document.getElementById('page-boot').style.display = 'none'; document.getElementById('page-body').style.display = 'block'}, t + 1000)
+		
+	</script>
 </body>
